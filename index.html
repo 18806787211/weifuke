@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div class="title-nav-eight">
+			<div class="box">
+				<form class="box-input">
+					<input class="box-zhanghao" autocomplete="off" type="text" value="请输入账号" />
+					<label>
+						<input class="box-password" type="password" value="" />
+						<div class="password-gd" >请输入密码</div>
+					</label>
+					<div class="box-btn clearfix">
+						<input class="box-btn-one" type="submit" value="登入" />
+						<input class="box-btn-two" id="box-btn-two" type="button" value="退出" />
+					</div>
+					<div class="login-nav">
+						<a class="login-nav-one" href="">注册</a>
+						<span>|</span>
+						<a class="login-nav-two" href="">忘记密码</a>
+								
+					</div>
+				</form>
+			</div>
+		</div>
+		
+		<div class="title" >
+			<div class="title-middle public clearfix">
+				<div class="title-middle-log"><a href="#/"><img src="images/log.jpg" /></a></div>
+				<div class="nav-box">
+						<ul class="title-middle-nav clearfix" id="titleNav">
+							<li class="title-nav-one current"><a href="#/">首页</a></li>
+							<li class="title-nav-two"><a href="#/aboutke">关于微付客</a></li>
+							<li class="title-nav-three"><a href="#/solution">解决方案</a></li>
+							<li class="title-nav-four"><a href="#/case">行业案例</a></li>
+							<li class="title-nav-five"><a href="#/channel">渠道代理</a></li>
+							
+						</ul>
+						<div class="title-nav-six" ><a href="javascript:void(0)"></a></div>
+					<i class="nav-box-line">navline</i>
+				</div>
+			</div>
+		</div>
+
+<div ng-view>
+	
+</div>		
+		
+		<div class="bottom">
+			<div class="bottom-middel public">
+				<ul class="bottom-top">
+					<li class="bottom-top-one">
+						<a href="##">021-54668933</a>
+						<a class="bottom-emil" href="##">wfk@wechatwepay.com</a>
+						<a class="bottom-add" href="##">Join Us 加入微付客</a>
+					</li>
+					<li class="bottom-top-two">
+						<img src="images/QR code.jpg" />
+						<span>扫描立即体验<br />
+						微付客公众号演示版	
+						</span>
+					</li>
+					<li class="bottom-top-three">
+						<a href="##">申请完整体验</a>
+					</li>
+				</ul>
+				<div class="bottom-foot public">
+					<span>上海臻客企业管理服务有限公司 沪ICP备13088888号-1<br />
+Copyright@2014-2015 www.wechatwepay.com.All Right Reserved</span>
+				</div>
+				
+			</div>
+		</div>
+		<script type="text/javascript" src="js/angular.min.js"></script>
+		<script type="text/javascript" src="js/angular-route.min.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/LocationData.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
